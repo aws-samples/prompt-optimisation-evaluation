@@ -1,0 +1,71 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+#python
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.env
+.venv
+.vscode
+*.egg-info
+.DS_Store
+# pyenv
+.python-version
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# dataset
+/generated/*
+!/generated/.gitkeep
+!/generated/transcripts/.gitkeep
+!/generated/faqs/.gitkeep
+!/generated/groundtruth/.gitkeep
+!/generated/responsible/.gitkeep
+
+# temp folder
+/tmp
+
+#lambda package
+*/package
+/lib/src/lambda/*/package
+
+# Ignore all files under package folders
+**/package/**
+
+# PyBuilder
+target/
