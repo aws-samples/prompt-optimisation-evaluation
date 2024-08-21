@@ -49,13 +49,7 @@ MANIFEST
 .cdk.staging
 cdk.out
 
-# dataset
-/generated/*
-!/generated/.gitkeep
-!/generated/transcripts/.gitkeep
-!/generated/faqs/.gitkeep
-!/generated/groundtruth/.gitkeep
-!/generated/responsible/.gitkeep
+
 
 # temp folder
 /tmp
